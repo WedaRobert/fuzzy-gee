@@ -1,0 +1,63 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    background-color: black;
+    padding: 0 3%;
+
+}
+header nav{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 18px 24px;
+    
+
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+
+}
+.wagwan{
+    background:linear-gradient(rgba(0, 0, 0,0.7),rgba(0, 0, 0,0.7)), url('./robah.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+}
+.wagwan .row{
+    color: #fff;
+    font-size: 20px;
+    margin-top: 200px;
+    padding: 0;
+    text-align: center;
+}
+.wagwan .column{
+    display: flex;
+    gap: 50px;
+    padding-left: 550px;
+    padding-top: 150px;
+    
+}
+.wagwan .column button{
+padding: 10px 20px;
+background-color: black;
+color: #fff;
+font-size: 16px;
+border: none;
+border-radius: 10px;
+}
+
+
+
+
+
